@@ -1,15 +1,14 @@
 # NudgeLearn
 
-NudgeLearn is a cross-platform micro-learning application that enables users to acquire new skills passively through active recall, bite-sized micro-games, and customizable periodic quizzes. It removes the friction of self-directed study by delivering targeted learning directly into the user's daily routine.
-
+RepoLens offers a web-based application that helps developers understand a new GitHub repository by using an interactive dependency map and recommended readings for a specific feature.
 ---
 
 ## Goals
 
-* Help users learn custom topics effortlessly through quick quizzes without textbooks or manual flashcard creation.
-* Build long-term memory by testing concepts before explaining them and reviewing them before they are forgotten.
-* Turn learning into an everyday habit using notification schedules, streaks, and mini-games.
-* Ensure questions are trustworthy and load instantly by validating AI content and reusing verified material across users.
+* Help onboarding developers locate entry points for specific features without deciphering unfamiliar repository directory trees.
+* Generate clear dependency graphs from static code analysis to visualize how relevant files and modules connect.
+* Recommend a reading order for related files based on symbol definitions and import relationships.
+* Deliver an interactive web tool that parses public Python repositories safely without executing untrusted code.
 
 ---
 
@@ -33,4 +32,4 @@ NudgeLearn is a cross-platform micro-learning application that enables users to 
 
 ## Living Document
 
-* [NudgeLearn (Google Docs)](https://docs.google.com/document/d/1ZTgu6tfoWwx9FWWS-5DqG5CtgXJ-zucDNXEEca_Qy4s/edit?tab=t.sql8ybk4ej5d#heading=h.18mw63g8e8ay)
+* [RepoLens (Google Docs)](https://docs.google.com/document/d/1ZTgu6tfoWwx9FWWS-5DqG5CtgXJ-zucDNXEEca_Qy4s/edit?tab=t.sql8ybk4ej5d#heading=h.18mw63g8e8ay)
