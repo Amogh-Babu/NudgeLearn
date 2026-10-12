@@ -1,6 +1,6 @@
 # RepoLens
 
-RepoLens offers a web-based application that helps developers understand a new GitHub repository by using an interactive dependency map and recommended readings for a specific feature.
+RepoLens is a web-based application designed to help developers onboard onto unfamiliar GitHub repositories. By pairing interactive dependency graphs with feature-centric reading recommendations, it enables newcomers to trace functional workflows—such as authentication or data ingestion—directly through relevant source files without getting lost in directory structures.
 ---
 
 ## Goals
