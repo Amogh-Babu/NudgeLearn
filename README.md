@@ -27,10 +27,10 @@ NudgeLearn is a cross-platform micro-learning application that enables users to 
 
 ## Local Setup Instructions
 
-*Local development instructions and dependency setup will be provided in Milestone 3 (System Architecture & Design).*
+*TBD*
 
 ---
 
 ## Living Document
 
-* [NudgeLearn Requirements Specification (Google Docs)](https://docs.google.com/document/d/1ZTgu6tfoWwx9FWWS-5DqG5CtgXJ-zucDNXEEca_Qy4s/edit?tab=t.sql8ybk4ej5d#heading=h.18mw63g8e8ay)
+* [NudgeLearn (Google Docs)](https://docs.google.com/document/d/1ZTgu6tfoWwx9FWWS-5DqG5CtgXJ-zucDNXEEca_Qy4s/edit?tab=t.sql8ybk4ej5d#heading=h.18mw63g8e8ay)
