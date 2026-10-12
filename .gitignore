@@ -1,36 +1,109 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
-.DS_Store
+# ==============================================================================
+# 1. Environment Variables & Credentials (CRITICAL)
+# ==============================================================================
+.env
+.env.*
+!.env.example
 *.pem
+*.key
+*.cert
+credentials.json
 
-# debug
+# ==============================================================================
+# 2. Package Dependencies & Virtual Environments
+# ==============================================================================
+# Node / Frontend
+node_modules/
+jspm_packages/
+.pnpm-store/
+
+# Python
+venv/
+.venv/
+env/
+ENV/
+__pypackages__/
+
+# ==============================================================================
+# 3. Build Outputs, Bundles & Compiled Code
+# ==============================================================================
+# JavaScript / TypeScript / Next.js
+dist/
+build/
+out/
+.next/
+.turbo/
+.parcel-cache/
+
+# Python bytecode & wheels
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# C / C++ (if native modules or services exist)
+*.o
+*.obj
+*.out
+*.app
+
+# ==============================================================================
+# 4. Logs, Caches & Diagnostics
+# ==============================================================================
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
-# local env files
-.env*.local
-.env
+# Test coverage & tooling caches
+.nyc_output/
+coverage/
+*.lcov
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.eslintcache
 
-# vercel
-.vercel
+# ==============================================================================
+# 5. OS & IDE Metadata
+# ==============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors & IDEs
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
