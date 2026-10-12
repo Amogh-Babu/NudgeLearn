@@ -1,4 +1,4 @@
-# NudgeLearn
+# RepoLens
 
 RepoLens offers a web-based application that helps developers understand a new GitHub repository by using an interactive dependency map and recommended readings for a specific feature.
 ---
